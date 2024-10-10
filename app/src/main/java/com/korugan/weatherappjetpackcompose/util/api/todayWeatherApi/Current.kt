@@ -1,4 +1,6 @@
-package com.korugan.weatherappjetpackcompose.util.api
+package com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi
+
+import com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi.Condition
 
 data class Current(
     val cloud: String,

@@ -1,4 +1,4 @@
-package com.korugan.weatherappjetpackcompose.util.api
+package com.korugan.weatherappjetpackcompose.util.api.forecastWeatherApi
 
 data class Forecastday(
     val astro: Astro,

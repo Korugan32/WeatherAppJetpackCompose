@@ -1,4 +1,4 @@
-package com.korugan.weatherappjetpackcompose.util.api
+package com.korugan.weatherappjetpackcompose.util.api.forecastWeatherApi
 
 data class LocationX(
     val country: String,

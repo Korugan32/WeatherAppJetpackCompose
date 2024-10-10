@@ -1,4 +1,4 @@
-package com.korugan.weatherappjetpackcompose.util.api
+package com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi
 
 data class Condition(
     val code: String,
