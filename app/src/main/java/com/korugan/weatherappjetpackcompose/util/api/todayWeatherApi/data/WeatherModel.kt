@@ -1,4 +1,4 @@
-package com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi
+package com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi.data
 
 data class WeatherModel(
     val current: Current,

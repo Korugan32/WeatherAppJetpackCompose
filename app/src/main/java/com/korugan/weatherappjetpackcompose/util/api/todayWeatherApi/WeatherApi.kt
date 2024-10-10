@@ -1,6 +1,6 @@
 package com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi
 
-import com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi.WeatherModel
+import com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi.data.WeatherModel
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

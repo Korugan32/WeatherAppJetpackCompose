@@ -4,10 +4,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.korugan.weatherappjetpackcompose.util.api.forecastWeatherApi.ForecastWeatherModel
+import com.korugan.weatherappjetpackcompose.util.api.forecastWeatherApi.data.ForecastWeatherModel
 import com.korugan.weatherappjetpackcompose.util.api.NetworkResponse
 import com.korugan.weatherappjetpackcompose.util.api.RetrofitInstance
-import com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi.WeatherModel
+import com.korugan.weatherappjetpackcompose.util.api.todayWeatherApi.data.WeatherModel
 import kotlinx.coroutines.launch
 
 class WeatherViewModel : ViewModel() {
