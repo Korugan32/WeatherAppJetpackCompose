@@ -1,4 +1,4 @@
-package com.korugan.weatherappjetpackcompose.presentation
+package com.korugan.weatherappjetpackcompose.presentation.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -42,7 +42,7 @@ class WeatherViewModel : ViewModel() {
         weatherForecastResult.value = NetworkResponse.Loading
         viewModelScope.launch {
             try {
-                val response = forecastWeatherApi.getForecastWeather("d47f96efd4814cfbbdb123512242505", city, "5")
+                val response = forecastWeatherApi.getForecastWeather("d47f96efd4814cfbbdb123512242505", city, "10")
                 if (response.isSuccessful){
                     response.body()?.let {
                         weatherForecastResult.value = NetworkResponse.Success(it)
