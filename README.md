@@ -30,6 +30,4 @@ A simple weather application built using **Jetpack Compose**, a modern Android U
 
   
 ## Video
-
-[Uploading Screen_recording_20241012_150139.webm…]()                                                             
-
+[Screen_recording_20241012_150139.webm](https://github.com/user-attachments/assets/5b7f8bcc-c441-4acc-af29-9a598009f91b)
